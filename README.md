@@ -143,7 +143,3 @@ Expected: blank title → `400`; unknown id → `404` with JSON `{ "status": 404
 | DELETE | `/api/issues/{id}` | `204` or `404` |
 
 `POST` / `PUT` require a non-blank `title` (max 255). Optional fields: `description`, `repositoryName`, `githubIssueNumber`, `status`. `githubIssueNumber` stays null until a later real GitHub import.
-
-## What is not in Milestone 1
-
-GitHub REST API, implementation plans, tasks, Git, pull requests, and the HTML dashboard.
